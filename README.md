@@ -12,7 +12,3 @@ First, clone the repository into a folder on your local machine:
 git clone https://github.com/inductive-anks1/Yield-Prediction.git
 
 
-### 2. Navigate into the project directory:
-
-```bash
-cd Yield-Prediction
