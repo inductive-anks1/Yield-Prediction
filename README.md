@@ -19,7 +19,6 @@ Navigate into the project directory:
 
 ```
 cd Yield-Prediction
-
 ```
 
 
@@ -29,7 +28,6 @@ Install the required Python packages using the requirements.txt file:
 
 ```
 pip install -r requirements.txt
-
 ```
 
 
