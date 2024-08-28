@@ -43,6 +43,5 @@ After downloading, move the "data" folder into the cloned repository:
 
 ```
 mv /path/to/downloaded/data-folder ./Yield-Prediction/data
-
 ```
 Now you are good to go!
