@@ -10,7 +10,6 @@ First, clone the repository into a folder on your local machine:
 
 ```
 git clone https://github.com/inductive-anks1/Yield-Prediction.git
-
 ```
 
 
