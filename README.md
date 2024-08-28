@@ -26,7 +26,7 @@ cd Yield-Prediction
 
 ### 3. Install Dependencies
 
-Navigate into the project directory:
+Install the required Python packages using the requirements.txt file:
 
 ```
 pip install -r requirements.txt
