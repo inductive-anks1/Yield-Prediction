@@ -45,3 +45,16 @@ After downloading, move the "data" folder into the cloned repository:
 mv /path/to/downloaded/data-folder ./Yield-Prediction/data
 ```
 Now you are good to go!
+
+### 6. Short Description on Code Files
+
+Centroid-SOI : Centroid to SOI village mapping
+
+Common-Village-and-Tehsil : Repeating Villages and Tehsils over the Year Blocks
+
+Cost-of-Cultivation : Contains preprocessing code of the RAW COC data.
+
+Tehsil-Village-Mapping : Contains different Tehsil to Village mapping codes (One to One mapped Villages, Village mapping on Raw COC dataset, Village mapping on DTA file)
+
+Toy-Model-DTA : Contains code on training a Random Forest Regressor for predicting Yield on the DTA file.
+
