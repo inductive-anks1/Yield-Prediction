@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 To get the necessary datasets, click on the link below to download the "data" folder:
 
-[Link](https://drive.google.com/drive/folders/16bqLrwnWOaaxYgGfP2L_bPWAuEkenLVt?usp=drive_link)
+[Link](https://isbhydmoh.sharepoint.com/:f:/s/PlakshaSummerInternship/Eu2_WcPQZQRAi7vaTs5KCXwBSZ_GdIpnkv9lFdRsFMGp-g?e=i9udTn)
 
 ### 5. Move the Data Folder
 
