@@ -48,13 +48,19 @@ Now you are good to go!
 
 ### 6. Short Description on Code Files
 
-Centroid-SOI : Centroid to SOI village mapping
+The repository contains several Python scripts, each serving a specific purpose in the yield prediction pipeline. Below is a brief description of each:
 
-Common-Village-and-Tehsil : Repeating Villages and Tehsils over the Year Blocks
+- **Centroid-SOI Mapping**: This script handles the mapping of centroids to SOI (Survey of India) villages. It aligns the geographical centroids of areas with their corresponding SOI village polygons.
 
-Cost-of-Cultivation : Contains preprocessing code of the RAW COC data.
+- **Common-Village-and-Tehsil** :  This script identifies and analyzes villages and tehsils that repeat across different year blocks.
 
-Tehsil-Village-Mapping : Contains different Tehsil to Village mapping codes (One to One mapped Villages, Village mapping on Raw COC dataset, Village mapping on DTA file)
+- **Cost-of-Cultivation** : This script preprocesses the raw Cost of Cultivation (COC) data, preparing it for analysis.
 
-Toy-Model-DTA : Contains code on training a Random Forest Regressor for predicting Yield on the DTA file.
+- **Tehsil-Village Mapping**: A set of scripts in this folder deals with various aspects of mapping tehsils to villages:
+  - **One-to-One Mapping**: Maps villages to tehsils in a one-to-one relationship.
+  - **Raw COC Data Mapping**: Maps one to one mapped villages to tehsils based on the raw COC dataset.
+  - **DTA File Mapping**: Maps one to one mapped villages using the DTA file, aligning them with tehsils for further analysis.
+
+- **Toy-Model-DTA** : This script contains a basic implementation of a Random Forest Regressor model trained on the DTA file. It serves as an initial step in predicting crop yield using the provided data.
+
 
