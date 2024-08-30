@@ -64,3 +64,26 @@ The repository contains several Python scripts, each serving a specific purpose 
 - **Toy-Model-DTA** : This script contains a basic implementation of a Random Forest Regressor model trained on the DTA file. It serves as an initial step in predicting crop yield using the provided data.
 
 
+### 7. Short Description on Datasets present in the data folder
+
+This is how the data folder looks like!
+
+![Data folder](image.png)
+
+- **All-India-Subdistrict-Shape-File**: This data folder contains the Subdistrict level shape files.
+  
+- **All-Inida-SOI**: This data folder contains the village shapes downloaded from Survey of India website.
+
+- **Centroid_File**: This data folder contains the centroids of the villages.
+
+- **Clean-Centroid-File** - This data folder contains the clean version of Centroids (non-repeating centroids).
+
+- **CoC-Raw-Data** - This data folder contains the DTA file, COC DTA clean and COC_raw_concat_clean.
+
+- **Final Data** - It contains all the Final Preprocessed data
+
+- **Tehsil Data** - This data folder conatins the One to One mapped Tehsils data and the One to Many mapped Tehsils
+
+- **Village-Localisation-Raw-Data** - This data folder contains the raw Village localisation data downloaded from the COC website.
+
+- **Village-Mapping** - This contains the merged data of One to One mapped villages with the Concatened COC data.
